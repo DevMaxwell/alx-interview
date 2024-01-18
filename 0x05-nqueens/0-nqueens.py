@@ -28,7 +28,7 @@ def queens(n, i=0, a=[], b=[], c=[]):
         yield a
 
 
-def solution(n):
+def solve(n):
     """ solve """
     k = []
     i = 0
@@ -41,4 +41,4 @@ def solution(n):
         i = 0
 
 
-solution(n)
+solve(n)
